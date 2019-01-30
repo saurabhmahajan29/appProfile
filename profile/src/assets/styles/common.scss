@@ -18,3 +18,17 @@
 .base-color{
     color: #7b7b7b;
 }
+a.btn-lnk {
+    text-decoration: none;
+    border: 2px solid #55C1E5;
+    font-size: 0.9em;
+    padding: 0.7em 1.5em;
+    color: #5eabda !important;
+    border-radius: 8px;
+    margin-top:30px;
+    display: inline-block;
+    cursor: pointer;
+    b {
+        font-weight: 500;
+    }
+}
