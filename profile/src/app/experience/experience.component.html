@@ -1,6 +1,6 @@
 <div class="container ap-margin" id="experience">
     <h3 class="heading">EXPERIENCE</h3>
-    <div class="row base-color">
+    <div class="row base-color expContainer">
         <div class="col-lg-6">
           <h4>Specialities</h4>
           <div>User Expereince & User Requirements, Analysis, design and development of Java based applications, effort estimations and negotiations techniques, client facing activities, Product modeling, Team mentoring.
@@ -11,6 +11,10 @@
                   <a class="btn-lnk"><b>View on Linkedin</b></a>
               </div>
         </div>
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+            <div *ngFor="let org of timeLineJson.organization">
+                <time-line [organization]="org"></time-line>
+            </div>
+        </div>
     </div>
     </div>
