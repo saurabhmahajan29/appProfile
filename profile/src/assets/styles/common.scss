@@ -32,3 +32,46 @@ a.btn-lnk {
         font-weight: 500;
     }
 }
+.ap-carousel-Slide {
+    padding: 0% 10%;
+    min-height: 280px;
+    .ap-carousel-imgWraper {
+        display: inline-block;
+        clear: both;
+        width:40%;
+        vertical-align: top;
+        img {
+            max-height: 200px;
+            max-width: 200px;
+            margin-left: 60px;
+        }
+        .roundedTxtFir, .roundedTxtSec {
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+            display: inline-block;
+            font-size: 22px;
+            padding-top: 80px;
+            text-align: center;
+        }
+        .roundedTxtFir {
+            background-color: #34CF75;
+            color: white;
+        }
+        .roundedTxtSec {
+            background-color: #35AFBA;
+            opacity: 0.6;
+            position: relative;
+            left:-50px;
+            color: red;
+        }
+    }
+    .ap-carousel-contentWrapper {
+        width: 55%;
+        display: inline-block;
+        clear: both;
+        .ap-desc-text {
+            display: inline-block;
+        }
+    }
+}

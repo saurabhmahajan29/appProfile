@@ -4,9 +4,10 @@
     .time-line{
         .inner-wrapper{
             margin: 0px 15px;
-            border-left: 2px solid #ccc;
+            border-left: 2px solid rgb(196, 196, 196);
             padding-left: 25px;
-            min-height: 100px;
+            min-height: 115px;
+            position: relative;
             .imgWrapper{
                 width:30%;
                 float:left;
@@ -18,10 +19,17 @@
                 }
             }
             .dotCircle{
-                height:20px;
-                border-radius: 30px;
-                background-color: rgb(124, 123, 123);
-                display:inline-block;
+                position: absolute;
+                top: 20px;
+                left: -10px;
+                display: block;
+                width: 1.222em;
+                height: 1.222em;
+                border: 3px solid #ccc;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                background-color: #F5F5F5;
             }
             .orgDetails{
                 width:70%;
@@ -31,12 +39,11 @@
                     color: #2C2C2C;
                     font-weight: 600;
                     margin: 0px;                    
-                    margin-bottom: 10px;
                 } 
                 .orgDesignation{
                     font-size: 14px;
                     color: #323232;
-                    margin-bottom: 10px;
+                    margin-bottom: 5px;
                 }
                 .orgDuration, .orgLocation{
                     font-size: 0.9em;
