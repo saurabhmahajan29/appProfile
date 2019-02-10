@@ -8,6 +8,7 @@ import { TimeLineComponent } from './time-line/time-line.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { StrengthsComponent } from './strengths/strengths.component';
+import { OverviewComponent } from './overview/overview.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StrengthsComponent } from './strengths/strengths.component';
     ExperienceComponent,
     TimeLineComponent,
     TestimonialsComponent,
-    StrengthsComponent
+    StrengthsComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+#overview {
+    position: relative;
+    carousel slide img{
+        max-height: 500px;
+    }   
+    .carousel-caption {
+        bottom: 200px;
+    }   
+    nav {
+        ul {
+            text-decoration: none;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            li {
+                display: inline-block;
+                padding-left: 40px;
+                color: grey;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+/*
+carousel{
+    .carousel {
+        .carousel-control {
+            display: none !important;
+        }
+    }
+}
+a.right.carousel-control {
+    display: none !important;
+  }
+  a.left.carousel-control {
+    display: none !important;
+  }
+  */
