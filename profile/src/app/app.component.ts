@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'profile';
-  skills: Array = [
+  skills: Array<any> = [
     {
       name: 'java',
       percentage: '80',
