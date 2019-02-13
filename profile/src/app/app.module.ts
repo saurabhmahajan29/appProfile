@@ -36,7 +36,8 @@ import { ProfileFooterComponent } from './profile-footer/profile-footer.componen
       outerStrokeColor: '#78C000',
       innerStrokeColor: '#C7E596',
       animationDuration: 300,
-      title:['java']
+      subtitleColor: 'black',
+      subtitle: 'UI'
     })
   ],
   providers: [],

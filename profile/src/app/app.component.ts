@@ -28,12 +28,12 @@ export class AppComponent {
       borderColor: '#78C000'
     },
     {
-      name: 'java',
+      name: 'html/css',
       percentage: '90',
       borderColor: 'red'
     },
     {
-      name: 'java',
+      name: 'sprint boot',
       percentage: '95',
       borderColor: '#C7E596'
     },{
