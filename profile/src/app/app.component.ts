@@ -14,40 +14,40 @@ export class AppComponent {
       borderColor: '#78C000'
     },
     {
-      name: 'HTML',
+      name: 'java',
       percentage: '70',
       borderColor: 'red'
     },
     {
-      name: 'CSS',
+      name: 'java',
       percentage: '100',
       borderColor: 'lime'
     },{
-      name: 'spring boot',
+      name: 'java',
       percentage: '80',
       borderColor: '#78C000'
     },
     {
-      name: 'mongoDB',
+      name: 'java',
       percentage: '90',
       borderColor: 'red'
     },
     {
-      name: 'SQL',
+      name: 'java',
       percentage: '95',
       borderColor: '#C7E596'
     },{
-      name: 'spring boot',
+      name: 'java',
       percentage: '80',
       borderColor: '#78C000'
     },
     {
-      name: 'mongoDB',
+      name: 'java',
       percentage: '90',
       borderColor: 'red'
     },
     {
-      name: 'SQL',
+      name: 'java',
       percentage: '95',
       borderColor: '#C7E596'
     }

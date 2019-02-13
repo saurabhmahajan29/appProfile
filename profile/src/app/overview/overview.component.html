@@ -24,12 +24,12 @@
   </carousel>
   <nav>
     <ul>
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Experience</li>
-      <li>Resume</li>
-      <li>Skills</li>
-      <li>  Contact</li>
+      <li><a>Home</a></li>
+      <li><a (click)="navigateTo('aboutMe')">About Me</a></li>
+      <li><a (click)="navigateTo('experience')">Experience</a></li>
+      <li><a>Resume</a></li>
+      <li><a (click)="navigateTo('skills')">Skills</a></li>
+      <li><a>Contact</a></li>
     </ul>
   </nav>
 </div>
