@@ -3,16 +3,19 @@
     <div class="row base-color expContainer">
         <div class="col-lg-6">
           <h4>Specialities</h4>
-          <div>User Expereince & User Requirements, Analysis, design and development of Java based applications, effort estimations and negotiations techniques, client facing activities, Product modeling, Team mentoring.
-            </div>
+          <div>{{experience.specialities}}</div>
             <br>
-              <div>Domains : Telecom, Financial</div>
+              <div>Domains : 
+                <ng-container *ngFor="let domain of experience.domains;let last = last">
+                    <span>{{domain}}<ng-container *ngIf="!last">, </ng-container></span>
+                </ng-container>
+              </div>
               <div>
                   <a class="btn-lnk"><b>View on Linkedin</b></a>
               </div>
         </div>
         <div class="col-lg-6">
-            <div *ngFor="let org of timeLineJson.organization">
+            <div *ngFor="let org of experience.organization">
                 <time-line [organization]="org"></time-line>
             </div>
         </div>

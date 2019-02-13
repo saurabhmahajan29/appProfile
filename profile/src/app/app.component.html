@@ -5,11 +5,11 @@
 -->
 
 <app-overview></app-overview>
-<app-about-me></app-about-me>
+<app-about-me [aboutme]="profileData.aboutme"></app-about-me>
 <app-strengths></app-strengths>
-<app-experience></app-experience>
+<app-experience [experience]="profileData.experience"></app-experience>
 <app-testimonials></app-testimonials>
-<app-skill [skills]="skills"></app-skill>
+<app-skill [skills]="profileData.skills"></app-skill>
 <app-profile-footer></app-profile-footer>
 
 

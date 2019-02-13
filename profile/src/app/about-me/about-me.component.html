@@ -1,16 +1,15 @@
 <div class="container ap-margin" id="aboutMe">
 <h3 class="heading">ABOUT ME</h3>
 <div class="row aboutMe-content base-color">
-  <div class="col-lg-7">Hey there! I am <a href="documents/Manan_Shah_Java_Developer_CV.pdf" target="_blank"><span>Manan Shah</span></a>. I discovered my passion for programming when I was a sophomore in High School; It was then when it became clear what I wanted to do for a living. I pursued my career at <b>Maharaja SayajiRao University</b> in Baroda where I learned JAVA and other web technologies and I fell in love with coding and designing.
-    <br/>
-    I am a tech-savvy person and like to keep myself updated with new softwares and technologies. I follow stackoverflow, Github, javaworld, javaranch and lot other technical websites. When I am not coding, I play guitar and keyboard ;)</div>
+  <!-- TODO: this should be in html not in hardcode string -->
+  <div class="col-lg-7">{{aboutme.description}}</div>
   <div id="aboutme-details" class="col-lg-5">
-    <div><img src="/src/assets/images/icon-calendar2.png"/> <b> Birth-date : </b>29 jun 1989</div>
-    <div><img src="/src/assets/images/skype_icon.png"/> <b> Skype : </b>shahmanan.com</div>
-    <div><img src="/src/assets/images/phone-icon.png"/> <b> Phone : </b>+ 32 4663028</div>
-    <div><img src="/src/assets/images/icon_whatsapp.png"/> <b> Whatsapp : </b>91 967331</div>
-    <div><img src="/src/assets/images/small_icon_email.png"/> <b> Email  : </b>shahmanan.com@gmail.com</div>
-    <div><img src="/src/assets/images/bottom-location-icon.png"/> <b> Address  : </b>Brussels, Belgium</div>
+    <div><img src="/src/assets/images/icon-calendar2.png"/> <b> Birth-date : </b>{{aboutme.dob}}</div>
+    <div><img src="/src/assets/images/skype_icon.png"/> <b> Skype : </b>{{aboutme.skype}}</div>
+    <div><img src="/src/assets/images/phone-icon.png"/> <b> Phone : </b>{{aboutme.phone}}</div>
+    <div><img src="/src/assets/images/icon_whatsapp.png"/> <b> Whatsapp : </b>{{aboutme.whatsapp}}</div>
+    <div><img src="/src/assets/images/small_icon_email.png"/> <b> Email  : </b>{{aboutme.email}}</div>
+    <div><img src="/src/assets/images/bottom-location-icon.png"/> <b> Address  : </b>{{aboutme.address}}</div>
     <div>
       <a class="btn-lnk"><b>Download My Resume</b></a>
     </div>
