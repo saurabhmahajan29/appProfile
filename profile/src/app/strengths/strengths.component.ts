@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-strengths',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./strengths.component.scss']
 })
 export class StrengthsComponent implements OnInit {
-
+  @Input() strengths;
   constructor() { }
 
   ngOnInit() {
