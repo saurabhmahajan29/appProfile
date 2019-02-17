@@ -9,8 +9,6 @@ export class SkillComponent implements OnInit {
   @Input() skills;
   constructor() { }
 
-  ngOnInit() {
-    let a = this.skills;
-  }
+  ngOnInit() { }
 
 }

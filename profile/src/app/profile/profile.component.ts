@@ -17,6 +17,5 @@ export class ProfileComponent implements OnInit {
       this.profileService.getProfileData().subscribe(profileData => {
         this.profileData = profileData as JSON;
       });
-    }
   }
 }

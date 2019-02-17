@@ -1,31 +1,21 @@
-<!-- <circle-progress
-  [percent]="85"
-  [radius]="80"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="0"
-  [outerStrokeColor]="'#78C000'"
-  [innerStrokeColor]="'#C7E596'"
-  [animation]="true"
-  [animationDuration]="400"
-></circle-progress> -->
-<!-- <div class="container ap-margin" id="skills">
-    <h3 class="heading">SKILLS</h3>
+<div class="container ap-margin" id="skills">
+    <h3 class="heading">{{skills.title}}</h3>
     <div class="row aboutMe-content base-color">
-        <ng-container *ngFor="let skl of skills">
+        <ng-container *ngFor="let skl of skills.knowledge">
             <circle-progress
-              [percent]="skl.percentage"
+              [percent]="skl.skillRating"
               [radius]="80"
               [outerStrokeWidth]="16"
               [innerStrokeWidth]="0"
-              [outerStrokeColor]="skl.borderColor"
+              [outerStrokeColor]="skl.color"
               [innerStrokeColor]="'#C7E596'"
               [animation]="true"
               [animationDuration]="400"
-              [subtitle]= "skl.name"
+              [subtitle]= "skl.skillName"
               [subtitleColor]="green"
               [subtitleFontSize]="22"
             ></circle-progress>
           </ng-container>
     </div>
-</div> -->
+</div>
     

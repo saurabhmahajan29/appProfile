@@ -1,12 +1,79 @@
 {
+	"appTitle": "Giriraj's Profile",
+	"backgroundImgUrl": "assets/images/home-background.JPG",
+	"resumeUrl": "",
 	"aboutme": {
 		"title": "ABOUT ME",
 		"description": "Hey there! I am <strong>Manan Shah</strong>. I discovered my passion for programming when I was a sophomore in High School; It was then when it became clear what I wanted to do for a living. I pursued my career at Maharaja SayajiRao University in Baroda where I learned JAVA and other web technologies and I fell in love with coding and designing. I am a tech-savvy person and like to keep myself updated with new softwares and technologies. I follow stackoverflow, Github, javaworld, javaranch and lot other technical websites. When I am not coding, I play guitar and keyboard ;)",
-		"dob": "29 jun 1989",
-		"skype": "shahmanan.com",
-		"phone": "+ 32 4663028",
-		"whatsapp": "91 967331",
-		"email": "shahmanan.com@gmail.com",
-		"address": "Brussels, Belgium"
+		"dob": "21/10/1990",
+		"skype": "giriraj2110",
+		"phone": "+91-8087305215",
+		"whatsapp": "+91-8087305215",
+		"email": "girirajvyas21@gmail.com",
+		"address": "Pune, Maharashtra"
+	},
+
+	"skills": {
+		"title": "SKILLS",
+		"knowledge": [{
+			"skillName": "Java",
+			"skillRating": "80",
+			"color": "#78C000"
+		}, {
+			"skillName": "Angular 5+",
+			"skillRating": "60",
+			"color": "red"
+		}, {
+			"skillName": "Spring",
+			"skillRating": "70",
+			"color": "orange"
+		}]
+	},
+
+	"homecarousel": [{
+		"imgUrl": "",
+		"header": "Carousel 1 header",
+		"content": "Carousel 1 content"
+	},
+	{
+		"imgUrl": "",
+		"header": "Carousel 2 header",
+		"content": "Carousel 2 content"
 	}
+	],
+
+
+
+
+	"specialities": "",
+	"organizations": [{
+		"designation": "Product Engineer",
+		"location": "Pune, India",
+		"organizationLogo": "assets/images/Cognizant-logo.png",
+		"organizationName": "Cognizant Technology Services",
+		"startYear": 2016,
+		"totalDuration": "November 2016 - Present"
+	}, {
+		"designation": "Software Engineer",
+		"location": "Pune, India",
+		"organizationLogo": "assets/images/Accenture-logo.png",
+		"organizationName": "Accenture Services Private Limited",
+		"startYear": 2015,
+		"totalDuration": "November 2015 - October 2016"
+	}, {
+		"designation": "Associate Consultant",
+		"location": "Pune, India",
+		"organizationLogo": "assets/images/Capgemini-logo.png",
+		"organizationName": "Capgemini Technology Solutions",
+		"startYear": 2012,
+		"totalDuration": "December 2012 - November 2015"
+	}],
+
+
+	"summaryCarousel": [{
+		"imgUrl": "",
+		"header": "",
+		"content": ""
+	}]
+
 }
