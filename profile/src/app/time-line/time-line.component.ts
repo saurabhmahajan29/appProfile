@@ -10,6 +10,5 @@ export class TimeLineComponent implements OnInit {
   @Input() organization;
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 }

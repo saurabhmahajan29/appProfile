@@ -1,5 +1,5 @@
 <div class="container ap-margin" id="experience">
-    <h3 class="heading">EXPERIENCE</h3>
+    <h3 class="heading">{{experience.title}}</h3>
     <div class="row base-color expContainer">
         <div class="col-lg-6">
           <h4>Specialities</h4>
@@ -15,7 +15,7 @@
               </div>
         </div>
         <div class="col-lg-6">
-            <div *ngFor="let org of experience.organization">
+            <div *ngFor="let org of experience.organizations">
                 <time-line [organization]="org"></time-line>
             </div>
         </div>

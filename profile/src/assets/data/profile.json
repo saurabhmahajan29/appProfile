@@ -51,36 +51,36 @@
 		"imgUrl": "",
 		"header": "Carousel 2 header",
 		"content": "Carousel 2 content"
-	}
-	],
-
-
-
-
-	"specialities": "",
-	"organizations": [{
-		"designation": "Product Engineer",
-		"location": "Pune, India",
-		"organizationLogo": "assets/images/Cognizant-logo.png",
-		"organizationName": "Cognizant Technology Services",
-		"startYear": 2016,
-		"totalDuration": "November 2016 - Present"
-	}, {
-		"designation": "Software Engineer",
-		"location": "Pune, India",
-		"organizationLogo": "assets/images/Accenture-logo.png",
-		"organizationName": "Accenture Services Private Limited",
-		"startYear": 2015,
-		"totalDuration": "November 2015 - October 2016"
-	}, {
-		"designation": "Associate Consultant",
-		"location": "Pune, India",
-		"organizationLogo": "assets/images/Capgemini-logo.png",
-		"organizationName": "Capgemini Technology Solutions",
-		"startYear": 2012,
-		"totalDuration": "December 2012 - November 2015"
 	}],
-
+	"experience": {
+		"title": "EXPERIENCE",
+		"specialities":"User Expereince & User Requirements, Analysis, design and development of Java based applications, effort estimations and negotiations techniques, client facing activities, Product modeling, Team mentoring.",
+		"domains": ["Telecom", "Financial","Technical"],
+		"organizations": [
+		  {
+			"designation": "Application Lead",
+			"location": "Brussels",
+			"organizationLogo": "assets/images/organizations-logo/Infosys-logo.jpg",
+			"organizationName": "Infosys",
+			"startYear": 2010,
+			"totalDuration": "January 2018 – Present"
+		  }, {
+			"designation": "Application Lead",
+			"location": "Brussels",
+			"organizationLogo": "assets/images/organizations-logo/oracle-logo.png",
+			"organizationName": "Oracle",
+			"startYear": 2010,
+			"totalDuration": "January 2018 – Present"
+		  }, {
+			"designation": "Application Lead",
+			"location": "Brussels",
+			"organizationLogo": "assets/images/organizations-logo/ing-bank-logo.png",
+			"organizationName": "ING",
+			"startYear": 2010,
+			"totalDuration": "January 2018 – Present"
+		  }
+		]
+	  },
 
 	"summaryCarousel": [{
 		"imgUrl": "",
