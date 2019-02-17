@@ -12,7 +12,6 @@
 		"email": "girirajvyas21@gmail.com",
 		"address": "Pune, Maharashtra"
 	},
-
 	"skills": {
 		"title": "SKILLS",
 		"knowledge": [{
@@ -29,6 +28,19 @@
 			"color": "orange"
 		}]
 	},
+	"testimonials":[{
+		"name": "Saurabh Mahajan",
+		"description": "As a member of overseas Product Modeling team, Saurabh showcased his communication skills with customers, business staff & colleagues.",
+		"imgUrl": "assets/images/testimonials-user-img/user_img1.jpg"
+	},{
+		"name": "Radhe Shyam Tiwari",
+		"description": "Saurabh has shown that he is a very intelligent person with a mind well-suited to the world of business, development and management. ",
+		"imgUrl": "assets/images/testimonials-user-img/user_img2.jpg"
+	},{
+		"name": "Kochi Dyan",
+		"description": "Saurabh an is highly motivated, professional and responsible person with a high degree of integrity. His ambition is always evident in his ideas and performance",
+		"imgUrl": "assets/images/testimonials-user-img/user_img3.jpg"
+	}],
 
 	"homecarousel": [{
 		"imgUrl": "",

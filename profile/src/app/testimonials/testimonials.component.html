@@ -1,43 +1,14 @@
 <div id="testimonial">
     <carousel [showIndicators]="false">
-        <slide>
+        <slide *ngFor="let testmoni of testimonials">
             <div class="py-5 ap-carousel-Slide">
                 <div class="ap-carousel-imgWraper">
-                    <img src="../../assets/images/user_img.jpg" class="rounded-circle" />
+                    <img src="{{testmoni.imgUrl}}" class="rounded-circle" />
                 </div>
                 <div class="ap-carousel-contentWrapper">
-                    <h3>Saurabh Mahajan</h3>
+                    <h3>{{testmoni.name}}</h3>
                     <span class="ap-desc-text">
-                        "As a member of overseas Product Modeling team, Saurabh showcased his communication skills with customers, business staff
-                        & colleagues."
-                    </span>
-                </div>
-            </div>
-        </slide>
-        <slide>
-            <div class="py-5 ap-carousel-Slide">
-                <div class="ap-carousel-imgWraper">
-                    <img src="../../assets/images/user_img.jpg" class="rounded-circle" />
-                </div>
-                <div class="ap-carousel-contentWrapper">
-                    <h3>Saurabh Mahajan</h3>
-                    <span class="ap-desc-text">
-                        "Saurabh has shown that he is a very intelligent person with a mind well-suited to the world of business, development and
-                        management."
-                    </span>
-                </div>
-            </div>
-        </slide>
-        <slide>
-            <div class="py-5 ap-carousel-Slide">
-                <div class="ap-carousel-imgWraper">
-                    <img src="../../assets/images/user_img.jpg" class="rounded-circle" />
-                </div>
-                <div class="ap-carousel-contentWrapper">
-                    <h3>Saurabh Mahajan</h3>
-                    <span class="ap-desc-text">
-                        "Saurabh an is highly motivated, professional and responsible person with a high degree of integrity. His ambition is always
-                        evident in his ideas and performance."
+                        "{{testmoni.description}}"
                     </span>
                 </div>
             </div>
