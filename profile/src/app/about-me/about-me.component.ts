@@ -10,7 +10,6 @@ export class AboutMeComponent implements OnInit {
   @Input() aboutme;
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

@@ -10,7 +10,6 @@ export class SkillComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    debugger;
     let a = this.skills;
   }
 

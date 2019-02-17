@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -13,6 +14,8 @@ import { SkillComponent } from './skill/skill.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProfileFooterComponent } from './profile-footer/profile-footer.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ProfileService } from '../app/_services/profile-service.service';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,13 @@ import { ProfileFooterComponent } from './profile-footer/profile-footer.componen
     StrengthsComponent,
     OverviewComponent,
     SkillComponent,
-    ProfileFooterComponent
+    ProfileFooterComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     CarouselModule.forRoot(),
+    HttpClientModule,
     NgCircleProgressModule.forRoot({
       radius: 100,
       outerStrokeWidth: 16,
@@ -40,7 +45,7 @@ import { ProfileFooterComponent } from './profile-footer/profile-footer.componen
       subtitle: 'UI'
     })
   ],
-  providers: [],
+  providers: [ ProfileService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

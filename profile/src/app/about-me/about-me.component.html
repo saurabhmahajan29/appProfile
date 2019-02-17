@@ -1,15 +1,14 @@
 <div class="container ap-margin" id="aboutMe">
-<h3 class="heading">ABOUT ME</h3>
+<h3 class="heading">{{aboutme.title}}</h3>
 <div class="row aboutMe-content base-color">
-  <!-- TODO: this should be in html not in hardcode string -->
-  <div class="col-lg-7">{{aboutme.description}}</div>
+  <div class="col-lg-7" [innerHtml]="aboutme.description"></div>
   <div id="aboutme-details" class="col-lg-5">
-    <div><img src="/src/assets/images/icon-calendar2.png"/> <b> Birth-date : </b>{{aboutme.dob}}</div>
-    <div><img src="/src/assets/images/skype_icon.png"/> <b> Skype : </b>{{aboutme.skype}}</div>
-    <div><img src="/src/assets/images/phone-icon.png"/> <b> Phone : </b>{{aboutme.phone}}</div>
-    <div><img src="/src/assets/images/icon_whatsapp.png"/> <b> Whatsapp : </b>{{aboutme.whatsapp}}</div>
-    <div><img src="/src/assets/images/small_icon_email.png"/> <b> Email  : </b>{{aboutme.email}}</div>
-    <div><img src="/src/assets/images/bottom-location-icon.png"/> <b> Address  : </b>{{aboutme.address}}</div>
+    <div *ngIf="aboutme.dob"><img src="/src/assets/images/icon-calendar2.png"/> <b> Birth-date : </b>{{aboutme.dob}}</div>
+    <div *ngIf="aboutme.skype"><img src="/src/assets/images/skype_icon.png"/> <b> Skype : </b>{{aboutme.skype}}</div>
+    <div *ngIf="aboutme.phone"><img src="/src/assets/images/phone-icon.png"/> <b> Phone : </b>{{aboutme.phone}}</div>
+    <div *ngIf="aboutme.whatsapp"><img src="/src/assets/images/icon_whatsapp.png"/> <b> Whatsapp : </b>{{aboutme.whatsapp}}</div>
+    <div *ngIf="aboutme.email"><img src="/src/assets/images/small_icon_email.png"/> <b> Email  : </b>{{aboutme.email}}</div>
+    <div *ngIf="aboutme.address"><img src="/src/assets/images/bottom-location-icon.png"/> <b> Address  : </b>{{aboutme.address}}</div>
     <div>
       <a class="btn-lnk"><b>Download My Resume</b></a>
     </div>
