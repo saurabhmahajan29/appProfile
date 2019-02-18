@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AboutMeComponent implements OnInit {
 
   @Input() aboutme;
+  @Input() resumeUrl;
   constructor() { }
 
   ngOnInit() { }

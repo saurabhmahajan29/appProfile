@@ -1,7 +1,8 @@
 {
 	"appTitle": "Giriraj's Profile",
 	"backgroundImgUrl": "assets/images/home-background.JPG",
-	"resumeUrl": "",
+	"resumeUrl": "http://shahmanan.com/documents/Manan_Shah_Java_Developer_CV.pdf",
+	"linkedInUrl": "https://in.linkedin.com/in/saurabhmahajan29",
 	"aboutme": {
 		"title": "ABOUT ME",
 		"description": "Hey there! I am <strong>Manan Shah</strong>. I discovered my passion for programming when I was a sophomore in High School; It was then when it became clear what I wanted to do for a living. I pursued my career at Maharaja SayajiRao University in Baroda where I learned JAVA and other web technologies and I fell in love with coding and designing. I am a tech-savvy person and like to keep myself updated with new softwares and technologies. I follow stackoverflow, Github, javaworld, javaranch and lot other technical websites. When I am not coding, I play guitar and keyboard ;)",
@@ -81,7 +82,6 @@
 		  }
 		]},
 		"strengths":{
-			"title": "",
 			"strength": [{
 				"firststrength": "FRONTEND",
 				"secondstrength": "backend",
@@ -100,10 +100,15 @@
 			}]
 		},
 
-	"summaryCarousel": [{
-		"imgUrl": "",
-		"header": "",
-		"content": ""
+	"homeCarousel": [{
+		"header": "head 22",
+		"content": "head 22 head 22 head 22"
+	}, {
+		"header": "head 33",
+		"content": "head 33 head 33 head 33"
+	}, {
+		"header": "head 44",
+		"content": "head 44 head 44 head 44"
 	}]
 
 }

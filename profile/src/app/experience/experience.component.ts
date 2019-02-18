@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
   @Input() experience;
+  @Input() linkedInUrl;
 
   constructor() { }
 

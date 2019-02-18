@@ -1,11 +1,24 @@
+
 #overview {
-    position: relative;
-    carousel slide img{
-        max-height: 500px;
-    }   
-    .carousel-caption {
-        bottom: 200px;
-    }   
+    // carousel slide img{
+    //     max-height: 500px;
+    // }   
+    // .carousel-caption {
+    //     bottom: 200px;
+    // }   
+    //background-image: url("assets/images/home-background.JPG");
+    min-height: 500px;
+    background-image: url(/assets/images/home_bkg.png);
+    background-size: cover;
+    
+    .home-background {
+        width: 100%;
+        height: auto;
+    }
+    .ap-carousel-overviewWrapper{
+        margin-top: 20%;
+        text-align: center;
+    }
     nav {
         ul {
             text-decoration: none;

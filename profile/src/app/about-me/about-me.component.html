@@ -10,7 +10,7 @@
     <div *ngIf="aboutme.email"><img src="/src/assets/images/small_icon_email.png"/> <b> Email  : </b>{{aboutme.email}}</div>
     <div *ngIf="aboutme.address"><img src="/src/assets/images/bottom-location-icon.png"/> <b> Address  : </b>{{aboutme.address}}</div>
     <div>
-      <a class="btn-lnk"><b>Download My Resume</b></a>
+      <a class="btn-lnk" href="{{resumeUrl}}" download target="_blank"><b>Download My Resume</b></a>
     </div>
   </div>
 </div>

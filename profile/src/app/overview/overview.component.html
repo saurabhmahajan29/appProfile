@@ -1,35 +1,35 @@
 <div id="overview">
-<carousel>
-    <slide>
-        <img src="../../assets/images/home-background.JPG" alt="second slide" style="display: block; width: 100%;">
-        <div class="carousel-caption">
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <!-- <img src="/assets/images/home_bkg.png" class="home-background"/> -->
+  <carousel [showIndicators]="false" class="home-homeCarousel-wrapper">
+    <slide *ngFor="let data of homeCarousel">
+      <div class="py-5 ap-carousel-Slide">
+        <div class="ap-carousel-overviewWrapper">
+          <h3>{{data.header}}</h3>
+          <div>{{data.content}}</div>
         </div>
-      </slide>
-    <slide>
-      <img src="../../assets/images/home-background2.JPG" alt="first slide" style="display: block; width: 100%;">
-      <div class="carousel-caption">
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
-    </slide>
-    <slide>
-      <img src="../../assets/images/home-background3.jpg" alt="third slide" style="display: block; width: 100%;">
-      <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </slide>
   </carousel>
   <nav>
     <ul>
-      <li><a>Home</a></li>
-      <li><a (click)="navigateTo('aboutMe')">About Me</a></li>
-      <li><a (click)="navigateTo('experience')">Experience</a></li>
-      <li><a>Resume</a></li>
-      <li><a (click)="navigateTo('skills')">Skills</a></li>
-      <li><a>Contact</a></li>
+      <li>
+        <a>Home</a>
+      </li>
+      <li>
+        <a (click)="navigateTo('aboutMe')">About Me</a>
+      </li>
+      <li>
+        <a (click)="navigateTo('experience')">Experience</a>
+      </li>
+      <li>
+        <a href="{{resumeUrl}}" target="blank"> Resume</a>
+      </li>
+      <li>
+        <a (click)="navigateTo('skills')">Skills</a>
+      </li>
+      <li>
+        <a>Contact</a>
+      </li>
     </ul>
   </nav>
 </div>
