@@ -1,6 +1,30 @@
 #strengths {
     .ap-carousel-Slide{
         background-color:#f4f4f4;
+        .ap-carousel-imgWraper {
+            text-align: center;
+            .roundedTxtFir, .roundedTxtSec {
+                height: 180px;
+                width: 180px;
+                border-radius: 50%;
+                display: inline-block;
+                font-size: 22px;
+                padding-top: 80px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .roundedTxtFir {
+                background-color: #34CF75;
+                color: white;
+            }
+            .roundedTxtSec {
+                background-color: #35AFBA;
+                opacity: 0.6;
+                position: relative;
+                left:-50px;
+                color: red;
+            }
+        }
     }
     .ap-carousel-contentWrapper {
         h3 {
@@ -10,4 +34,4 @@
             color: #7b7b7b
         }
     }
-}
+}   

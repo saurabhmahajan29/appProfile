@@ -27,6 +27,18 @@
 			"skillName": "Spring",
 			"skillRating": "70",
 			"color": "orange"
+		},{
+			"skillName": "Java",
+			"skillRating": "80",
+			"color": "#78C000"
+		}, {
+			"skillName": "Angular 5+",
+			"skillRating": "60",
+			"color": "red"
+		}, {
+			"skillName": "Spring",
+			"skillRating": "70",
+			"color": "orange"
 		}]
 	},
 	"testimonials":[{
@@ -109,6 +121,6 @@
 	}, {
 		"header": "head 44",
 		"content": "head 44 head 44 head 44"
-	}]
-
+	}],
+	"footer": "© 2019 Website Designed by Saurabh Mahajan"
 }

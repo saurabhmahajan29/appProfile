@@ -2,6 +2,7 @@
     <h3 class="heading">{{skills.title}}</h3>
     <div class="row aboutMe-content base-color">
         <ng-container *ngFor="let skl of skills.knowledge">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 ap-xs-center">
             <circle-progress
               [percent]="skl.skillRating"
               [radius]="80"
@@ -15,6 +16,7 @@
               [subtitleColor]="green"
               [subtitleFontSize]="22"
             ></circle-progress>
+        </div>
           </ng-container>
     </div>
 </div>

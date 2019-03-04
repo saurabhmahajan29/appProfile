@@ -2,14 +2,20 @@
     <carousel>
         <slide *ngFor="let strength of strengths.strength">
             <div class="py-5 ap-carousel-Slide">
-                <div class="ap-carousel-imgWraper">
-                   <h3 class="roundedTxtFir">{{strength.firststrength}}</h3>
-                   <h3 class="roundedTxtSec">{{strength.secondstrength}}</h3>
-                </div>
-                <div class="ap-carousel-contentWrapper">
-                    <h3>{{strength.heading}}</h3>
-                    <span class="ap-desc-text" [innerHtml]="strength.description">
-                    </span>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 col-xl-5">
+                        <div class="ap-carousel-imgWraper">
+                            <h3 class="roundedTxtFir">{{strength.firststrength}}</h3>
+                            <h3 class="roundedTxtSec">{{strength.secondstrength}}</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-xl-7">
+                        <div class="ap-carousel-contentWrapper">
+                            <h3>{{strength.heading}}</h3>
+                            <span class="ap-desc-text" [innerHtml]="strength.description">
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </slide>

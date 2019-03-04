@@ -2,14 +2,20 @@
     <carousel [showIndicators]="false">
         <slide *ngFor="let testmoni of testimonials">
             <div class="py-5 ap-carousel-Slide">
-                <div class="ap-carousel-imgWraper">
-                    <img src="{{testmoni.imgUrl}}" class="rounded-circle" />
-                </div>
-                <div class="ap-carousel-contentWrapper">
-                    <h3>{{testmoni.name}}</h3>
-                    <span class="ap-desc-text">
-                        "{{testmoni.description}}"
-                    </span>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ap-carousel-imgWraper">
+                            <img src="{{testmoni.imgUrl}}" class="rounded-circle" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="ap-carousel-contentWrapper">
+                            <h3>{{testmoni.name}}</h3>
+                            <span class="ap-desc-text">
+                                "{{testmoni.description}}"
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </slide>
