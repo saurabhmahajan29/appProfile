@@ -1,7 +1,7 @@
 <div class="container ap-margin" id="aboutMe">
 <h3 class="heading">{{aboutme.title}}</h3>
 <div class="row aboutMe-content base-color">
-  <div class="col-lg-7" [innerHtml]="aboutme.description"></div>
+  <div class="col-lg-7 ap-txtAlign-justify" [innerHtml]="aboutme.description"></div>
   <div id="aboutme-details" class="col-lg-5">
     <div *ngIf="aboutme.dob"><img src="/src/assets/images/icon-calendar2.png"/> <b> Birth-date : </b>{{aboutme.dob}}</div>
     <div *ngIf="aboutme.skype"><img src="/src/assets/images/skype_icon.png"/> <b> Skype : </b>{{aboutme.skype}}</div>
