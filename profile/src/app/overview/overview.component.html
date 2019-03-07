@@ -1,16 +1,11 @@
 <div id="overview">
-  <!-- <img src="/assets/images/home_bkg.png" class="home-background"/> -->
-  <carousel [showIndicators]="false" class="home-homeCarousel-wrapper">
-    <slide *ngFor="let data of homeCarousel">
-      <div class="py-5 ap-carousel-Slide">
-        <div class="ap-carousel-overviewWrapper">
-          <h3>{{data.header}}</h3>
-          <div>{{data.content}}</div>
-        </div>
-      </div>
-    </slide>
-  </carousel>
-  <nav>
+  <div class="navToggler" (click)="navToggle()">
+    <span class="left">MENU</span>
+    <span class="right">
+      <img src="/src/assets/images/menu_icon.png " />
+    </span>
+  </div>
+  <nav [ngClass]="{'open': isOpen }">
     <ul>
       <li>
         <a>Home</a>
@@ -32,4 +27,15 @@
       </li>
     </ul>
   </nav>
+  <!-- <img src="/assets/images/home_bkg.png" class="home-background"/> -->
+  <carousel [showIndicators]="false" class="home-homeCarousel-wrapper">
+    <slide *ngFor="let data of homeCarousel">
+      <div class="py-5 ap-carousel-Slide">
+        <div class="ap-carousel-overviewWrapper">
+          <h3>{{data.header}}</h3>
+          <div>{{data.content}}</div>
+        </div>
+      </div>
+    </slide>
+  </carousel>
 </div>

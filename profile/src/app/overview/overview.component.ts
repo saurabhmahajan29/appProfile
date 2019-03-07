@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class OverviewComponent implements OnInit {
   @Input() homeCarousel;
   @Input() resumeUrl;
-
+  isOpen: Boolean = false;
   constructor() { }
 
   ngOnInit() {
@@ -18,4 +18,7 @@ export class OverviewComponent implements OnInit {
     document.getElementById(eleId).scrollIntoView();
   }
 
+  navToggle() {
+    this.isOpen = !this.isOpen;
+  }
 }
